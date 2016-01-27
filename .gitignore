@@ -1,0 +1,5 @@
+web/bin/
+web/obj/
+ EntityFramework.userprefs
+packages/
+EntityFramework.userprefs
