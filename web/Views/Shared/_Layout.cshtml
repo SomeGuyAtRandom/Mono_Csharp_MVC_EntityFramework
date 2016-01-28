@@ -33,18 +33,20 @@
           </button>
           <a class="brand" href="#">Project name</a>
           <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
+            <ul id="menu" class="nav">
+              <li id="home">
+              	@Html.ActionLink("Home", "Index", "Home")
+              </li>
+              <li id="person" >
+              	@Html.ActionLink("Person", "Index", "Person")
+              </li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
-    <div class="container">
-	@RenderBody()
-	</div>
+
 
 	<!-- Le javascript
     ================================================== -->
@@ -63,7 +65,9 @@
     <script src="Scripts/bootstrap/assets/js/bootstrap-collapse.js"></script>
     <script src="Scripts/bootstrap/assets/js/bootstrap-carousel.js"></script>
     <script src="Scripts/bootstrap/assets/js/bootstrap-typeahead.js"></script>
-
+    <div class="container">
+		@RenderBody()
+	</div>
 </body>
 </html>
 

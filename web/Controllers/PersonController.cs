@@ -19,7 +19,10 @@ namespace web.Controllers
 		}
         public ActionResult Index()
         {
-            return View ();
+
+			List<Person> people;
+			people = this.db.People.ToList();
+			return View(people);
         }
 
 		public ActionResult TestAddtion()
