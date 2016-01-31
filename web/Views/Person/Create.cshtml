@@ -1,0 +1,54 @@
+﻿@model web.Models.Person
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+@using (Html.BeginForm())  
+{
+<table>
+	<thead>
+				<tr>
+					<th>Tag</th>
+					<th>Value</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>@Html.LabelFor(model => model.Id)</td>
+					<td>
+						@Html.DisplayFor(model => model.Id)
+					</td>
+				</tr>
+				<tr>
+					<td>@Html.DisplayNameFor(model => model.FirstName)</td>
+					<td>
+						@Html.EditorFor(model => model.FirstName) 
+						@Html.ValidationMessageFor(model => model.FirstName) 
+					</td>
+				</tr>
+				<tr>
+					<td>@Html.DisplayNameFor(model => model.LastName)</td>
+					<td>
+						@Html.EditorFor(model => model.LastName) 
+						@Html.ValidationMessageFor(model => model.LastName) 
+					</td>
+				</tr>
+				<tr>
+					<td> @Html.LabelFor(model => model.BirthDate) </td>
+					<td> 
+						@Html.EditorFor(model => model.BirthDate) 
+						@Html.ValidationMessageFor(model => model.BirthDate) 
+					</td>
+				</tr>
+
+			</tbody>
+
+		</table>
+		<input type="submit"  class="btn btn-primary" value="Save" /> 
+} 
+<script type="text/javascript">
+$('#BirthDate').datepicker({format: 'mm/dd/yyyy'});
+</script>

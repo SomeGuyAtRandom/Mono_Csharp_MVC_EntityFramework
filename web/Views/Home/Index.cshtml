@@ -1,6 +1,12 @@
 ﻿<h2>Welcome to ASP.NET MVC @ViewData["Version"] on @ViewData["Runtime"]!</h2>
-@Html.ActionLink("Test Insert", "TestAddtion", "Person")
+
+@Html.ActionLink("Create", "Create", "Person", null, null)
+<br />
+<input type="text" class="span2" value="02-16-2012" id="dp1" >
+
+
 <script>
+$('#dp1').datepicker({format: 'mm-dd-yyyy'});
  $(document).ready(function () {
  	 	$("#menu li").removeClass("active");
  	 	$('#home').addClass('active');

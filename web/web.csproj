@@ -167,6 +167,12 @@
     <Content Include="Scripts\bootstrap\assets\ico\apple-touch-icon-72-precomposed.png" />
     <Content Include="Scripts\bootstrap\assets\ico\favicon.png" />
     <Content Include="Views\Person\Index.cshtml" />
+    <Content Include="Views\Person\Edit.cshtml" />
+    <Content Include="Views\Person\Create.cshtml" />
+    <Content Include="Views\Shared\DatePicker.cshtml" />
+    <Content Include="Scripts\bootstrap\datepicker\css\datepicker.css" />
+    <Content Include="Scripts\bootstrap\datepicker\js\bootstrap-datepicker.js" />
+    <Content Include="Scripts\bootstrap\datepicker\less\datepicker.less" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

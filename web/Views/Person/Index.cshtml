@@ -1,4 +1,4 @@
-﻿﻿@using web.Models;
+﻿@using web.Models;
 @model IEnumerable < Person >
 
 
@@ -15,6 +15,7 @@
 			<tr>
 				<td>First Name</td>
 				<td>Last Name</td>
+				<td>Birthday</td>
 				<td>View</td>
 				<td>Edit</td>
 				<td>Delete</td>
@@ -26,18 +27,19 @@
 			<tr>
 				<td>@p.FirstName</td>
 				<td>@p.LastName</td>
+				<td>@p.BirthDate</td>
 				<td>@Html.ActionLink( "view", "Details", "Person", new { Id = p.Id }, null)</td>
-				<td>@Html.ActionLink( "edit", "Details", "Person", new { Id = p.Id }, null)</td>
-				<td>@Html.ActionLink( "edit", "Details", "Person", new { Id = p.Id }, null)</td>
+				<td>@Html.ActionLink( "edit", "Edit", "Person", new { Id = p.Id }, null)</td>
+				<td>@Html.ActionLink( "delete", "Delete", "Person", new { Id = p.Id }, null)</td>
 			</tr>
 		}
 			
 		</tbody>
 	</table>
 
+	@Html.ActionLink("Create New", "Create", "Person", null, new { @class = "btn btn-primary"})
+
 </div>
-
-
 
 <script>
  $(document).ready(function () {
