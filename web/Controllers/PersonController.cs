@@ -97,5 +97,15 @@ namespace web.Controllers
 			return View ("Create", p);
 		}
 
+		[HttpPost]
+		[ActionName("Delete")]
+		public ActionResult Delete(int Id)
+		{
+			Person person = db.People.Find(Id);
+			db.People.Remove(person);
+			db.SaveChanges();
+			return RedirectToAction("Index"); 
+		}
+
     }
 }
