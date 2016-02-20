@@ -1,0 +1,16 @@
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/web.dll.mdb
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/web.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/obj/Debug/web.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/obj/Debug/web.dll.mdb
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/Microsoft.Web.Infrastructure.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/System.Web.Mvc.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/System.Web.Razor.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/System.Web.Helpers.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/System.Web.WebPages.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/System.Web.WebPages.Deployment.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/System.Web.WebPages.Razor.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/MySql.Data.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/MySql.Data.Entity.EF6.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/EntityFramework.dll
+/home/someguy/Projects/Mono_Csharp_MVC_EntityFramework/web/bin/EntityFramework.SqlServer.dll

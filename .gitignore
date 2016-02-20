@@ -1,7 +1,0 @@
-web/bin/
-web/obj/
- EntityFramework.userprefs
-packages/
-EntityFramework.userprefs
-web.Tests/bin/
-web.Tests/obj/
