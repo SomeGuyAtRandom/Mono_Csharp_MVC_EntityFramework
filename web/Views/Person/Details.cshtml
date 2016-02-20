@@ -5,9 +5,12 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 
  }
+
+
 <h2>Details</h2>
-<div>
-<table>
+<div class="row">
+    <div class="col-md-6">
+<table class="table">
 	<thead>
 		<tr>
 			<th>Tag</th>
@@ -34,10 +37,10 @@
 	</tbody>
 
 </table>
-
-@Html.ActionLink("Edit", "Edit", "Person", new { Id = @Model.Id }, new { @class = "btn btn-primary"})
-
+@Html.ActionLink("List", "Index", "Person", null, new { @class = "btn btn-primary"})
 </div>
+</div>
+
 
 
 <script>

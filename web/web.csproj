@@ -80,8 +80,6 @@
     <Folder Include="Content\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
-    <Folder Include="Scripts\bootstrap\assets\" />
-    <Folder Include="Scripts\bootstrap\assets\js\" />
     <Folder Include="Scripts\sql\" />
     <Folder Include="ContextDbs\" />
     <Folder Include="App_Start\" />
@@ -106,29 +104,23 @@
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
-    <Content Include="Scripts\bootstrap\css\bootstrap-responsive.css" />
-    <Content Include="Scripts\bootstrap\css\bootstrap-responsive.min.css" />
-    <Content Include="Scripts\bootstrap\css\bootstrap.css" />
-    <Content Include="Scripts\bootstrap\css\bootstrap.min.css" />
-    <Content Include="Scripts\bootstrap\img\glyphicons-halflings-white.png" />
-    <Content Include="Scripts\bootstrap\img\glyphicons-halflings.png" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.js" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.min.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-transition.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-alert.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-modal.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-dropdown.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-scrollspy.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-tab.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-tooltip.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-popover.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-button.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-collapse.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-carousel.js" />
-    <Content Include="Scripts\bootstrap\assets\js\bootstrap-typeahead.js" />
-    <Content Include="Scripts\jquery-2.2.0-vsdoc.js" />
-    <Content Include="Scripts\jquery-2.2.0.js" />
-    <Content Include="Scripts\jquery-2.2.0.min.js" />
+    <Content Include="Views\Person\Index.cshtml" />
+    <Content Include="Views\Person\Edit.cshtml" />
+    <Content Include="Views\Person\Create.cshtml" />
+    <Content Include="Views\Person\Details.cshtml" />
+    <Content Include="Scripts\jquery-1.9.0-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.9.0.js" />
+    <Content Include="Scripts\jquery-1.9.0.min.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />
@@ -164,18 +156,6 @@
     <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
     <Content Include="Scripts\jquery-ui-1.11.4.js" />
     <Content Include="Scripts\jquery-ui-1.11.4.min.js" />
-    <Content Include="Scripts\bootstrap\assets\ico\apple-touch-icon-114-precomposed.png" />
-    <Content Include="Scripts\bootstrap\assets\ico\apple-touch-icon-144-precomposed.png" />
-    <Content Include="Scripts\bootstrap\assets\ico\apple-touch-icon-57-precomposed.png" />
-    <Content Include="Scripts\bootstrap\assets\ico\apple-touch-icon-72-precomposed.png" />
-    <Content Include="Scripts\bootstrap\assets\ico\favicon.png" />
-    <Content Include="Views\Person\Index.cshtml" />
-    <Content Include="Views\Person\Edit.cshtml" />
-    <Content Include="Views\Person\Create.cshtml" />
-    <Content Include="Views\Shared\DatePicker.cshtml" />
-    <Content Include="Scripts\bootstrap\datepicker\css\datepicker.css" />
-    <Content Include="Scripts\bootstrap\datepicker\js\bootstrap-datepicker.js" />
-    <Content Include="Scripts\bootstrap\datepicker\less\datepicker.less" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -186,7 +166,7 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
-    <None Include="Scripts\jquery-2.2.0.min.map" />
     <None Include="Scripts\sql\build_database.sql" />
+    <None Include="Scripts\jquery-1.9.0.min.map" />
   </ItemGroup>
 </Project>
